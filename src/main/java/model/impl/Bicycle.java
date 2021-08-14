@@ -4,7 +4,7 @@ import model.Vehicle;
 
 public class Bicycle implements Vehicle {
     @Override
-    public String getVehicleType() {
-        return "Bicycle";
+    public void getVehicleType() {
+        System.out.println("Bicycle");
     }
 }

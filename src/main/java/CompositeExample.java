@@ -25,6 +25,5 @@ public class CompositeExample {
 
         composite.getVehicleType();
 
-
     }
 }

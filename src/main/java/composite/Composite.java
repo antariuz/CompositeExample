@@ -9,11 +9,10 @@ public class Composite implements Vehicle {
     private final List<Vehicle> components = new ArrayList<>();
 
     @Override
-    public String getVehicleType() {
+    public void getVehicleType() {
         for(Vehicle component: components){
-            System.out.println(component.getVehicleType());
+            component.getVehicleType();
         }
-        return null;
     }
 
     public void addComponent(Vehicle vehicle){
